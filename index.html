@@ -1,19 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tesing doc</title>
-</head>
-<body>
-    <h1><b>This is a testing file html for github pushing</b></h1>
-    <ol>
-        <li>Item list 1</li>
-        <li>Item list 2</li>
-        <li>Item list 3</li>
-        <li>Item list 4</li>
-        <li>Item list 5</li>
-    </ol>
-    <h2><i>Adding one more header</i></h2>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hướng dẫn đẩy code lên Github</title>
+  </head>
+  <body>
+    <h1><b>Các bước đẩy code lên Github:</b></h1>
+    <ul>
+      <li>
+        <u>Nếu lần đầu đẩy code:</u><br />
+        <ol>
+          <li><i>Bước 1: Tải & cài đặt git bash</i></li>
+          <li><i>Bước 2: Chọn tùy chọn cho VS code làm default</i></li>
+          <li><i>Bước 3: Tắt toàn bộ VS code đang mở</i></li>
+          <li>
+            <i>Bước 4: Mở lại VS code thư mục cần upload code lên github</i>
+          </li>
+          <li><i>Bước 5: Mở terminal PowerShell</i></li>
+          <li>
+            <i
+              >Bước 6: Kiểm tra xem git bash đã được cài đặt thành công chưa
+              bằng "git --version"</i
+            >
+          </li>
+          <li>
+            <i
+              >Bước 7: Nếu đã cài đặt thành công thì gõ "git init" để khởi
+              tạo</i
+            >
+          </li>
+          <li>
+            <i
+              >Bước 8: Khởi tạo reposity trên Github để lưu code, chọn public</i
+            >
+          </li>
+          <li>
+            <i
+              >Bước 9: Copy đường link remote đến repo với link có dạng "remote
+              add origin http...."</i
+            >
+          </li>
+          <li>
+            <i
+              >Bước 10: Kiểm tra xem đã add được remote chưa bằng câu lệnh "git
+              remote -v"</i
+            >
+          </li>
+          <li>
+            <i>Bước 11: Thêm thư mục local vào repo qua câu lệnh "git add ."</i>
+          </li>
+          <li>
+            <i
+              >Bước 12: Thêm comment mô tả cho thư mục bằng "git commit -m "đây
+              là cmt"</i
+            >
+          </li>
+          <li>
+            <i
+              >Bước 13: Đẩy toàn bộ thư mục code vào repo bằng "git push origin
+              main"</i
+            >
+          </li>
+          <li>
+            <i>Bước 14: Refresh trang repo của Github để check kết quả</i>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <u>Nếu đẩy code các lần sau:</u><br />
+        <ol>
+          <li>
+            <i>Bước 1: Nếu có sửa code cũ để đẩy lại thì sửa & save code</i>
+          </li>
+          <li>
+            <i
+              >Bước 2: Thêm toàn bộ thư mục chứa code vào repo bằng "git add
+              ."</i
+            >
+          </li>
+          <li>
+            <i
+              >Bước 3: Thêm comment cho những thay đổi hoặc mô tả thư mục chứa
+              code bằng "git commit -m "đây là cmt"</i
+            >
+          </li>
+          <li>
+            <i
+              >Bước 4: Đẩy toàn bộ thư mục code vào repo bằng "git push origin
+              main"</i
+            >
+          </li>
+          <li><i>Bước 5: Refresh trang repo của Github để check kết quả</i></li>
+        </ol>
+      </li>
+    </ul>
+    <hr />
+    <p>
+      <i>Vậy là xong hướng dẫn đẩy code từ local vào Github qua VS code!</i>
+      <br />
+      <i
+        >Chúc tôi có thể làm lại được theo hướng dẫn này mà không bị lỗi :)
+        hehe</i
+      >
+    </p>
+  </body>
 </html>
